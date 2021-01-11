@@ -1,0 +1,12 @@
+const String firstLaunchRoute = '/';
+const String homeRoute = '/home';
+const String loginRoute = '/login';
+const String signUpRoute = '/signUp';
+const String notificationRoute = '/notification';
+const String changePasswordRoute = '/changePassword';
+const String profileEditRoute = '/profileEdit';
+const String pastOrderRoute = '/pastOrder';
+const String pendingRoute = '/pending';
+const String newOrderRoute = '/newOrder';
+const String allFindRoute = '/allFind';
+const String turnOfOrderingRoute = '/turnOfOrdering';

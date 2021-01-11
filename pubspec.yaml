@@ -1,0 +1,60 @@
+name: food_cafe
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  get:
+  line_icons:
+  dotted_border:
+  flutter_dash:
+  recase:
+  flutter_automation:
+  firebase_auth:
+  firebase_core:
+  cloud_firestore:
+  google_sign_in:
+  shared_preferences:
+  cached_network_image:
+  flushbar:
+  logger:
+  url_launcher:
+  easy_popup:
+  speech_to_text:
+  dio:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Baloo Tamma 2 Regular
+      fonts:
+        - asset: assets/fonts/BalooTamma_Regular.ttf
+
+    - family: Baloo Tamma 2 Medium
+      fonts:
+        - asset: assets/fonts/BalooTamma_Medium.ttf
+
+    - family: Baloo Tamma 2 Bold
+      fonts:
+        - asset: assets/fonts/BalooTamma_Bold.ttf
+
+    - family: Baloo Tamma 2 SemiBold
+      fonts:
+        - asset: assets/fonts/BalooTamma_SemiBold.ttf
